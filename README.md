@@ -17,7 +17,7 @@ Kendimi ve şehrimi tanıttığım kişisel web sitesi oluşturmak.
     * Eğitim bilgilerini içeren cv niteliğinde sayfa.
 * Şehrim Sayfası
     * Ankaranın tanıtıldığı sayfa
-* Mirasımız Sayfası
+* Takımımız Sayfası
     * Şehrin takımının tanıtıldığı sayfa.
 * İlgi Alanlarım Sayfası
     * API servisinden alınan spor film bilgileri içeren sayfa.
