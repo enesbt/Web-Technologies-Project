@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+
+}
+h5{
+    border-bottom: 1px solid black;
+}

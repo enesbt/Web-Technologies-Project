@@ -1,0 +1,15 @@
+input{
+    width: 100%;
+}
+table{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+input{
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+}

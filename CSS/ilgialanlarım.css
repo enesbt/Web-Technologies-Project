@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Cabin', sans-serif;;
+    background-color:#dbd5d5;
+   
+}
+nav .navbar-nav li a{
+    color:#330000 !important;
+}
+nav .navbar-nav li a:hover{
+    color:	yellow !important;
+}
+
+.footer-list{
+    list-style: none;
+}
+footer{
+    background-color: #545252;
+}
+footer h2{
+    color:#330000;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff200;
+}
