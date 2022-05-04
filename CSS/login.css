@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+body{
+   font-family: 'Cabin', sans-serif;
+   background-color:#dbd5d5;
+}
 input{
     width: 100%;
 }
@@ -13,3 +18,5 @@ h1{
     text-align: center;
     margin-top: 10%;
 }
+
+ 

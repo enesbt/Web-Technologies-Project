@@ -13,6 +13,7 @@ nav .navbar-nav li a:hover{
 h2{
    margin-top: 4%;
    margin-bottom: 5%;
+   color: #330000;
 }
 
 h3{
@@ -60,7 +61,6 @@ input[type="submit"]:hover{
    
 
 }
-
 input[type="reset"]{
    background-color: red;
    margin-top: 2%;
@@ -76,3 +76,25 @@ input[type="reset"]{
   color: black;
   background-color: white;
 }
+.table{
+   width: 100%;
+}
+footer{
+   background-color: #545252;
+}
+footer h2{
+   color:#330000;
+}
+footer a{
+   color: white;
+}
+footer a:hover{
+   color: #fff200;
+}
+a{
+   text-decoration: none;
+}
+.footer-list{
+   list-style: none;
+}
+

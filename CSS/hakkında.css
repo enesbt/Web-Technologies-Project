@@ -90,3 +90,6 @@ footer a{
 footer a:hover{
     color: #fff200;
 }
+.list-group-item{
+    background-color: #dbd5d5;
+}
