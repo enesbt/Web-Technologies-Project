@@ -14,16 +14,20 @@ function formkontrol(){
     let mesaj = document.querySelector('#mesaj')
     let regex = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+.)+([.])+[a-zA-Z0-9.-]{2,4}$/;
 
-    if(ad.value==""||email.value==""||mesaj.value==""){
+    if(ad.value!=""||email.value!=""||mesaj.value!=""){
+        if (regex.test(email.value)==true)
+        {alert("mail adresi gecerli")}
+        else
+        {alert("Hata geçersiz mail adresi girdiniz!");}
+
+    }
+    else{
         alert('BOŞ KISIMLARI DOLDURUN')
         ad.value=""
         email.value=""
         mesaj.value=""
     }
-    else if (regex.test(email.value)==true)
-    {alert("mail adresi gecerli")}
-    else
-    {alert("Hata geçersiz mail adresi girdiniz!");}
+ 
 }
 
 

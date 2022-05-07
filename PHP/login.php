@@ -4,42 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="CSS/loginphp.css">
+    <link rel="stylesheet" href="../CSS/loginphp.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="JS/all.min.js"></script><!--iconsınıfı-->
+    <script src="../JS/all.min.js"></script><!--iconsınıfı-->
     <title>Login</title>
   </head>
   <body class="body" style="margin: 0px 10px;">
     <!--Navbar-Start-->
-    <div id="alert"></div>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #dbd5d5;">
         <div class="container-fluid">
-          <a style="color: #330000;" class="navbar-brand" href="hakkında.html">EBT</a>
+          <a style="color: #330000;" class="navbar-brand" href="../hakkında.html">EBT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="hakkında.html">Hakkında</a>
+                <a class="nav-link active" aria-current="page" href="../hakkında.html">Hakkında</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="ilgialanlarım.html">İlgi Alanlarım</a>
+                <a class="nav-link active" aria-current="page" href="../ilgialanlarım.html">İlgi Alanlarım</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="şehrim.html">Şehrim</a>
+                <a class="nav-link active" aria-current="page" href="../şehrim.html">Şehrim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="takımımız.html">Takımımız</a>
+                <a class="nav-link active" aria-current="page" href="../takımımız.html">Takımımız</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="iletişim.html">İletişim</a>
+                <a class="nav-link active" aria-current="page" href="../özgeçmiş.html">Özgeçmiş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../iletişim.html">İletişim</a>
               </li>   
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="özgeçmiş.html">Özgeçmiş</a>
-              </li>    
+                <a class="nav-link active" aria-current="page" href="../login.html">Giriş Yap</a>
+              </li>       
             </ul>   
           </div>
         </div>
@@ -62,16 +64,14 @@
          }
          else{
              echo 'yanlış kullanıcı adı veya şifre';
-             header("Location: login.html"); 
+             header("Location: ../login.html"); 
         }
      }
      else{
          echo 'boş bırakmayınız';
-         header("Location: login.html"); 
+         header("Location: ../login.html"); 
      } 
      ?>
-
-
 
         <!--Footer-Start-->
    <footer>
@@ -118,12 +118,12 @@
        <div class="col-md-4 col-sm-4 mt-3">
          <h2>Faydalı Linkler</h2>
          <ul class="footer-list">
-           <li><a href="hakkında.html">Hakkında</a> </li>
-           <li><a href="ilgialanlarım.html">İlgi Alanlarım</a></li>
-           <li><a href="şehrim.html">Şehrim</a></li>
-           <li><a href="takımımız.html">Takımımız</a></li>
-           <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
-           <li><a href="iletişim.html">İletişim</a></li>
+           <li><a href="../hakkında.html">Hakkında</a> </li>
+           <li><a href="../ilgialanlarım.html">İlgi Alanlarım</a></li>
+           <li><a href="../şehrim.html">Şehrim</a></li>
+           <li><a href="../takımımız.html">Takımımız</a></li>
+           <li><a href="../özgeçmiş.html">Özgeçmiş</a></li>
+           <li><a href="../iletişim.html">İletişim</a></li>
          </ul>
        </div>
       </div>

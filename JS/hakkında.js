@@ -15,7 +15,7 @@ butonEkle()
 function egitim(){
     let egitimsayfa = `
     <h3 class="mt-3" style="color:#330000">EĞİTİM BİLGİLERİ</h3>
-    <ul class="list-group list-group-flush" style="background-color:#dbd5d5 ;">
+    <ul class="list-group list-group-flush">
     <li class="list-group-item">Ankara Yıldırım Beyazıt Üniversitesi - Odyoloji<button type="button" class="btn btn-danger float-end disabled">X</button> </li>
     <li class="list-group-item">Atatürk Üniversitesi - Bilgisayar Programcılığı <div class="spinner-border text-primary float-end" role="status">
     <span class="visually-hidden ">Loading...</span>
@@ -29,7 +29,7 @@ function egitim(){
 function hobi(){
   let hobisayfa = `
   <h3 class="mt-3" style="color:#330000">HOBİLERİM</h3>
-  <ul class="list-group list-group-flush" style="background-color:#dbd5d5 ;">
+  <ul class="list-group list-group-flush">
   <li class="list-group-item">Dizi-Film İzlemek</li>
   <li class="list-group-item">Yürüyüş Yapmak</li>
   <li class="list-group-item">Yemek Yapmak</li>
@@ -41,7 +41,7 @@ function hobi(){
 function prgdil(){
   let programsayfa = `
   <h3 class="mt-3" style="color:#330000">KULLANDIĞIM PROGRAMLAMA DİLLERİ</h3>
-  <ul class="list-group list-group-flush" style="background-color:#dbd5d5 ;">
+  <ul class="list-group list-group-flush">
   <li class="list-group-item">HTML<div class="progress" >
   <div  class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 </div></li>
@@ -52,13 +52,13 @@ function prgdil(){
   <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 </div></li>
   <li class="list-group-item">C++<div class="progress">
-  <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 </div></li>
   <li class="list-group-item">C#<div class="progress">
-  <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 </div></li>
 <li class="list-group-item">Python<div class="progress">
-  <div class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 </div></li>
  </ul>`
  icerikDom.innerHTML=programsayfa
@@ -67,7 +67,7 @@ function prgdil(){
 function spor(){
   let sporsayfa = `
   <h3 class="mt-3" style="color:#330000">İlgilendiğim Sporlar</h3>
-  <ul class="list-group list-group-flush" style="background-color:#dbd5d5 ;">
+  <ul class="list-group list-group-flush" ;">
  <div class="spinner-grow" role="status">
  <li class="list-group-item">Futbol</li> </div>
  <div class="spinner-grow" role="status">
