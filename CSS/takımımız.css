@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+body{
+    font-family: 'roboto', sans-serif;
+    background-color:#fff7f7;
+   
+}
 nav .navbar-nav li a{
-    color:#330000 !important;
+    color:#181818 !important;
+    font-weight: 600;
 }
 nav .navbar-nav li a:hover{
-    color:	#fff200 !important;
-}
-body{
-    background-color: #dbd5d5;
-    font-family: 'Cabin', sans-serif;;
+    color:	 #8f8c8c !important;
+    
 }
 h1,h2,h3,h4,h5,h6{
-    color: #330000;
+    color: #181818;
+    font-weight: 600;
 }
 .card{
-    background-color:#dbd5d5 ;
-    border: 1px solid #330000;
+    background-color:#fff7f7 ;
+    border: 1px solid #181818;
 }
 footer{
-    background-color: #545252;
+    background-color: #181818;
 }
-footer h2{
-    color:#330000;
+.footer-h{
+    font-weight: 600; 
+    color: white;
 }
 footer a{
     color: white;
 }
 footer a:hover{
-    color: #fff200;
+    color: #8f8c8c;
 }
 .footer-list{
     list-style: none;

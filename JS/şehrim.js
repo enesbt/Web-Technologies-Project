@@ -3,11 +3,11 @@ let item =  document.querySelector('.items')
 
 function butonadd2(){
     let buton2=`
-    <button type="button"  onclick="sehirtarih()" class="sbtn btn btn-outline-danger">Tarih</button><br>
-    <button type="button"  onclick="gezilcekyerler()" class="sbtn btn btn-outline-danger">Gezilecek Yerler</button>
-    <button type="button"  onclick="tarihiyerler()" class="sbtn btn btn-outline-danger">Tarihi Yerler</button>
-    <button type="button"  onclick="muze()" class="sbtn btn btn-outline-danger">Müzeler</button>
-    <button type="button"  onclick="genel()" class="sbtn btn btn-outline-danger">Genel Bilgiler</button>
+    <button type="button"  onclick="sehirtarih()" class="btn  btn-light">Tarih</button><br>
+    <button type="button"  onclick="gezilcekyerler()" class="btn  btn-light">Gezilecek Yerler</button>
+    <button type="button"  onclick="tarihiyerler()" class="btn  btn-light">Tarihi Yerler</button>
+    <button type="button"  onclick="muze()" class="btn  btn-light">Müzeler</button>
+    <button type="button"  onclick="genel()" class="btn  btn-light">Genel Bilgiler</button>
     <br><br>
     <h6>Kaynakça</h6>
     <p style="font-size:12px">Bu sayfada Kullanılan Bilgiler<br>
@@ -212,7 +212,7 @@ function muze(){
          <h5 class="card-title">Anadolu Medeniyetleri Müzesi</h5>
          <p class="card-text">Anadolu Medeniyetleri Müzesi; Ankara'nın Altındağ ilçesinde bulunan bir tarih ve arkeoloji müzesidir. Müzede,
           Anadolu'da yaşamış olan uygarlıklardan geriye kalan arkeolojik eserler kronolojik olarak sergilenmektedir.</p>
-         <a href="https://tr.wikipedia.org/wiki/Anadolu_Medeniyetleri_M%C3%BCzesi" target="_blank" class="btn btn-danger">Daha Fazla</a>
+         <a href="https://tr.wikipedia.org/wiki/Anadolu_Medeniyetleri_M%C3%BCzesi" target="_blank" class="btn muzebuton btn-light">Daha Fazla</a>
        </div>
      </div>
     </div>
@@ -223,7 +223,7 @@ function muze(){
        <h5 class="card-title">Etnoğrafya Müzesi</h5>
        <p class="card-text">Ankara Etnografya Müzesi, Ankara'nın Altındağ ilçesinde bulunmaktadır. Kurtuluş Savaşı'nda cuma namazlarının kılındığı eski adı Namazgâh Tepesi olan yerde kuruldu.[3] Önceleri Arkeoloji Müzesi olarak kullanılması düşünülmüş,
         sonra Resim Heykel Müzesi olmasına karar verilmiş, açılış töreninden sonra bugünkü işlevine kavuşmuştur.</p>
-       <a href="https://tr.wikipedia.org/wiki/Ankara_Etnografya_M%C3%BCzesi" class="btn btn-danger" target="_blank">Daha Fazla</a>
+       <a href="https://tr.wikipedia.org/wiki/Ankara_Etnografya_M%C3%BCzesi" class="btn muzebuton btn-light" target="_blank">Daha Fazla</a>
      </div>
    </div></div>
   </div>
@@ -236,7 +236,7 @@ function muze(){
        <p class="card-text">I. TBMM Binası, 1920-1924 yılları arasında TBMM faaliyetlerinin gerçekleştirildiği bina. 
        Ankara'nın Altındağ ilçesinin Ulus Meydanı'nda bulunan
         I. Türkiye Büyük Millet Meclisi binasının inşaasına, 1915 yılında başlanmıştır.</p>
-       <a href="https://tr.wikipedia.org/wiki/Kurtulu%C5%9F_Sava%C5%9F%C4%B1_M%C3%BCzesi" class="btn btn-danger" target="_blank">Daha Fazla</a>
+       <a href="https://tr.wikipedia.org/wiki/Kurtulu%C5%9F_Sava%C5%9F%C4%B1_M%C3%BCzesi" class="btn muzebuton btn-light" target="_blank">Daha Fazla</a>
      </div>
    </div>
   </div>
@@ -248,7 +248,7 @@ function muze(){
      <p class="card-text">Çengelhan Rahmi M. Koç Müzesi, Ankara'nın Altındağ ilçesinde bulunmaktadır.
       Ankara'nın ilk sanayi müzesidir. Ankara Kalesi'nin ana giriş kapısının karşısında, eskiden
       At Pazarı olarak bilinen mevkide yer alan Çengel Han adlı tarihi kervansarayda yer alır.</p>
-     <a href="https://tr.wikipedia.org/wiki/%C3%87engelhan_Rahmi_M._Ko%C3%A7_M%C3%BCzesi" target="_blank" class="btn btn-danger">Daha Fazla</a>
+     <a href="https://tr.wikipedia.org/wiki/%C3%87engelhan_Rahmi_M._Ko%C3%A7_M%C3%BCzesi" target="_blank" class="btn muzebuton btn-light">Daha Fazla</a>
    </div>
  </div></div>
 </div>
@@ -260,7 +260,7 @@ function muze(){
      <h5 class="card-title">Ulucanlar Cezaevi Müzesi</h5>
      <p class="card-text">Ankara Merkez Kapalı Ceza ve Tutukevi veya Ulucanlar Cezaevi, 1925 ve 2006 yılları arasında 
      Ankara'nın Altındağ ilçesinin Ulucanlar semtinde faaliyet göstermiş olan bir cezaevidir.</p>
-     <a href="https://tr.wikipedia.org/wiki/Ulucanlar_Cezaevi_M%C3%BCzesi" target="_blank" class="btn btn-danger">Daha Fazla</a>
+     <a href="https://tr.wikipedia.org/wiki/Ulucanlar_Cezaevi_M%C3%BCzesi" target="_blank" class="btn muzebuton btn-light">Daha Fazla</a>
    </div>
  </div>
 </div>
@@ -271,7 +271,7 @@ function muze(){
    <h5 class="card-title">PTT Pul Müzesi</h5>
    <p class="card-text">PTT Pul Müzesi; Ankara'nın Altındağ ilçesinde bulunan bir müzedir. Müzenin açılışı 2013 yılının Ekim ayında yapılmıştır. Müze koleksiyonunda; 4400 parça orijinal pul ve 
    dünyanın çeşitli ülkelerinden derlenmiş 1500 parça, toplamda yaklaşık 6000 kadar pul bulunmaktadır.</p>
-   <a href="https://tr.wikipedia.org/wiki/PTT_Pul_M%C3%BCzesi" target="_blank" class="btn btn-danger">Daha Fazla</a>
+   <a href="https://tr.wikipedia.org/wiki/PTT_Pul_M%C3%BCzesi" target="_blank" class="btn muzebuton btn-light">Daha Fazla</a>
  </div>
 </div></div>
 </div>

@@ -3,10 +3,10 @@ let icerikDom = document.querySelector('.icerik')
 
 function butonEkle(){
     let buton = `
-    <button onclick="egitim()" type="button" id="egitim"  class="btn btn-danger kısaca my-1">Eğitim</button><br>
-    <button onclick="hobi()" type="button" id="hobi" class="btn btn-danger kısaca my-1">Hobilerim</button>    <br>
-    <button onclick="prgdil()" type="button" id="etkinlik" class="btn btn-danger kısaca my-1">ProgramlamaDilleri</button>    <br>
-    <button onclick="spor()" type="button" id="spor" class="btn btn-danger kısaca my-1">Spor</button>    <br>
+    <button onclick="egitim()" type="button" id="egitim"  class="btn btn-light kısaca my-1">Eğitim</button><br>
+    <button onclick="hobi()" type="button" id="hobi" class="btn btn-light kısaca my-1">Hobilerim</button>    <br>
+    <button onclick="prgdil()" type="button" id="etkinlik" class="btn btn-light kısaca my-1">ProgramlamaDilleri</button>    <br>
+    <button onclick="spor()" type="button" id="spor" class="btn btn-light kısaca my-1">Spor</button>    <br>
     `
     butonDom.innerHTML=buton
 }
@@ -14,7 +14,7 @@ butonEkle()
 
 function egitim(){
     let egitimsayfa = `
-    <h3 class="mt-3" style="color:#330000">EĞİTİM BİLGİLERİ</h3>
+    <h5 class="mt-3" style="color:#181818; font-weight:600;">EĞİTİM BİLGİLERİ</h5>
     <ul class="list-group list-group-flush">
     <li class="list-group-item">Ankara Yıldırım Beyazıt Üniversitesi - Odyoloji<button type="button" class="btn btn-danger float-end disabled">X</button> </li>
     <li class="list-group-item">Atatürk Üniversitesi - Bilgisayar Programcılığı <div class="spinner-border text-primary float-end" role="status">
@@ -28,7 +28,7 @@ function egitim(){
 }
 function hobi(){
   let hobisayfa = `
-  <h3 class="mt-3" style="color:#330000">HOBİLERİM</h3>
+  <h5 class="mt-3" style="color:#181818;font-weight:600;">HOBİLERİM</h5>
   <ul class="list-group list-group-flush">
   <li class="list-group-item">Dizi-Film İzlemek</li>
   <li class="list-group-item">Yürüyüş Yapmak</li>
@@ -40,7 +40,7 @@ function hobi(){
 
 function prgdil(){
   let programsayfa = `
-  <h3 class="mt-3" style="color:#330000">KULLANDIĞIM PROGRAMLAMA DİLLERİ</h3>
+  <h5 class="mt-3" style="color:#181818;font-weight:600;">KULLANDIĞIM PROGRAMLAMA DİLLERİ</h5>
   <ul class="list-group list-group-flush">
   <li class="list-group-item">HTML<div class="progress" >
   <div  class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -66,7 +66,7 @@ function prgdil(){
 }
 function spor(){
   let sporsayfa = `
-  <h3 class="mt-3" style="color:#330000">İlgilendiğim Sporlar</h3>
+  <h5 class="mt-3" style="color:#181818;font-weight:600; ">İLGİLENDİĞİM SPORLAR</h5>
   <ul class="list-group list-group-flush" ;">
  <div class="spinner-grow" role="status">
  <li class="list-group-item">Futbol</li> </div>

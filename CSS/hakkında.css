@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
 body{
-    font-family: 'Cabin', sans-serif;;
-    background-color:#dbd5d5;
+    font-family: 'roboto', sans-serif;
+    background-color:#fff7f7;
    
 }
 nav .navbar-nav li a{
-    color:#330000 !important;
+    color:#181818 !important;
+    font-weight: 600;
 }
 nav .navbar-nav li a:hover{
-    color:	yellow !important;
+    color:	 #8f8c8c !important;
+    
 }
 
 .img-kisisel{
@@ -27,7 +29,7 @@ nav .navbar-nav li a:hover{
 .card{
     width: 80%;
     margin-left: 10%;
-    background-color:#dbd5d5 ;
+    background-color:#fff7f7 ;
     border: 0px;
 }
 .card img{
@@ -35,8 +37,9 @@ nav .navbar-nav li a:hover{
 }
 
 #başlıkilk{
-    color: #330000;
+    color: #181818;
     text-align: center;
+    font-weight: 700;
 }
 #paragrafilk{
     text-align: center;
@@ -46,16 +49,20 @@ nav .navbar-nav li a:hover{
     width: 100%;
 }
 h1,h2,h3,h4,h5,h6{
-    color: #330000;
+    color: #181818;
+}
+h5{
+    font-weight: 600;
 }
 #profile{
     margin-top: 1%;
     text-align: center;
-    color: #330000;
+    color: #181818;
+    font-weight: 700;
 }
 .profilediv{
-    border-top: 1px solid #330000;
-    border-bottom: 1px solid #330000;
+
+    border-bottom: 1px solid #181818;
 }
 .card-text{
     font-size:medium;
@@ -72,24 +79,27 @@ a{
     list-style: none;
 }
 .btn{
-    background-color: #330000;
+    background-color: #181818;
+    color: white;
 }
 .btn:hover{
-    background-color: #330000;
+    background-color: #c0bebe;
+    color: #000000;
 }
 
 footer{
-    background-color: #545252;
-}
-footer h2{
-    color:#330000;
+    background-color: #181818;
 }
 footer a{
     color: white;
 }
+.footer-h{
+    font-weight: 600; 
+    color: white;
+}
 footer a:hover{
-    color: #fff200;
+    color: #8f8c8c;
 }
 .list-group-item{
-    background-color: #dbd5d5;
+    background-color: #fff7f7;
 }

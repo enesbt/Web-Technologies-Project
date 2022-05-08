@@ -1,50 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
-.sbtn{
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+body{
+    font-family: 'roboto', sans-serif;
+    background-color:#fff7f7;
+   
+}
+nav .navbar-nav li a{
+    color:#181818 !important;
+    font-weight: 600;
+}
+nav .navbar-nav li a:hover{
+    color:	 #8f8c8c !important;
+    
+}
+.btn{
     width: 100%;
     height: auto;
     margin-top: 2%;
+    background-color: #181818;
+    color: white;
 }
-body{
-    font-family: sans-serif;
-    font-family: 'Cabin', sans-serif;;
-    background-color:#dbd5d5;
+.btn:hover{
+    background-color: #c0bebe;
+    color: #000000;
 }
-nav .navbar-nav li a{
-    color:#330000 !important;
-}
-nav .navbar-nav li a:hover{
-    color:	#fff200 !important;
+.muzebuton{
+    width: 25%;
 }
 h1,h2,h3,h4,h5,h6{
-    color:#330000 ;
+    color:#181818 ;
+}
+h5{
+    font-weight: 600;
 }
 .card{
     width: 80%;
-    background-color:#dbd5d5 ;
+    background-color:#fff7f7 ;
     border: 0px;
 }
 .card img{
     border-radius: 5%;
 }
 footer{
-    background-color: #545252;
+    background-color: #181818;
 }
-footer h2{
-    color:#330000;
-}
+
 footer a{
     color: white;
 }
 footer a:hover{
-    color: #fff200;
+    color: #8f8c8c;
+}
+.footer-h{
+    font-weight: 600; 
+    color: white;
 }
 .footer-list{
     list-style: none;
 }
 a{
     text-decoration: none;
-}
-.btn{
-    background-color: #330000;
-    color: white;
 }

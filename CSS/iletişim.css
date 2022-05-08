@@ -1,19 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
 body{
-   font-family: 'Cabin', sans-serif;;
-   background-color:#dbd5d5;
+   font-family: 'roboto', sans-serif;
+   background-color:#fff7f7;
+   
 }
 nav .navbar-nav li a{
-   color:#330000 !important;
+   color:#181818 !important;
+   font-weight: 600;
 }
 nav .navbar-nav li a:hover{
-   color:	#fff200 !important;
-}
-
-h2{
-   margin-top: 4%;
-   margin-bottom: 5%;
-   color: #330000;
+   color: #8f8c8c !important; 
 }
 
 h3{
@@ -49,7 +45,7 @@ select{
    background-color:rgb(104, 104, 104);
 }
 input[type="submit"]{
-   background-color: blueviolet;
+   background-color: #181818;
    margin-top: 2%;
    border: 0;
    cursor: pointer;
@@ -57,16 +53,17 @@ input[type="submit"]{
 
 }
 input[type="submit"]:hover{
-   background-color: crimson;
-   
-
+   background-color: #8f8c8c;
 }
 input[type="reset"]{
-   background-color: red;
+   background-color: #181818;
    margin-top: 2%;
    border: 0;
    cursor: pointer;
    text-transform: uppercase;
+}
+input[type="reset"]:hover{
+   background-color: #300000;
 }
 
 .formbilgi{
@@ -80,16 +77,18 @@ input[type="reset"]{
    width: 100%;
 }
 footer{
-   background-color: #545252;
+   background-color: #181818;
 }
-footer h2{
-   color:#330000;
-}
+
 footer a{
    color: white;
 }
 footer a:hover{
-   color: #fff200;
+   color: #8f8c8c;
+}
+.footer-h{
+   font-weight: 600; 
+   color: white;
 }
 a{
    text-decoration: none;

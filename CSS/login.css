@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Comforter+Brush&family=Mochiy+Pop+P+One&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
 body{
-   font-family: 'Cabin', sans-serif;
-   background-color:#dbd5d5;
+    font-family: 'roboto', sans-serif;
+    background-color:#fff7f7; 
 }
 input{
     width: 100%;
 }
-table{
-    position: absolute;
-    left: 40%;
-    top: 30%;
-}
+
 input{
     margin-top: 5%;
 }
 h1{
     text-align: center;
     margin-top: 10%;
+    margin-right: 15%;
+}
+.btn{
+    background-color: #181818;
+    color: white;
 }
 
  

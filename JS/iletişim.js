@@ -6,8 +6,6 @@ function range(){
 }
 range()
 
-
-
 function formkontrol(){
     let ad    = document.querySelector('#ad')
     let email = document.querySelector('#email')
